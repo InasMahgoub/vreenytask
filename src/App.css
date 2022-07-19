@@ -1,0 +1,107 @@
+.App {
+  text-align: inherit;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.card-img, .card-img-top {
+  height: 230px !important;
+  overflow: hidden;
+}
+
+.card {
+  margin: 15px 0;
+}
+
+.filter-row {
+  margin: 15px 0;
+}
+
+.footer {
+  padding: 15px 0 0;
+  margin-top: 15px;
+  text-align: center;
+  border-top: 1px solid gainsboro;
+}
+
+.navbar a {
+  color: #16697A;
+}
+
+.navbar a.active {
+  color: #16697A !important;
+  font-weight: 700;
+}
+
+.wrapper {
+  min-height: 100vh !important;
+}
+
+.login-wrap {
+  padding: 30px 15px;
+  border: 1px solid gainsboro;
+  margin: 30px 0;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.bg-gray {
+  background-color: #EDE7E3;
+}
+
+.bg-theme {
+  background-color: #FFA62B;
+  border-color: #FFA62B;
+}
+
+.bg-theme:hover {
+  background-color: #489FB5;
+  border-color: #489FB5;
+}
+
+.bg-theme-dark {
+  background-color: #16697A;
+  border-color: #16697A;
+}
+
+.bg-theme-dark:hover {
+  background-color: #FFF;
+  color: #16697A !important;
+  border-color: #16697A;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
